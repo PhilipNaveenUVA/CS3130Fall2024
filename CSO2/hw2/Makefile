@@ -1,7 +1,7 @@
 # File: Makefile
 
 CFLAGS = -O1 -Wall
-TARGET = timings
+TARGET = gettimings
 
 all: $(TARGET)
 
