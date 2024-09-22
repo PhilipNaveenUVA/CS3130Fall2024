@@ -1,12 +1,12 @@
 # File: Makefile
 
 CFLAGS = -O1 -Wall
-TARGET = gettimings
+TARGET = timings
 
 all: $(TARGET)
 
-$(TARGET): gettimings.c
-	$(CC) $(CFLAGS) -o $(TARGET) gettimings.c
+$(TARGET): timings.c
+	$(CC) $(CFLAGS) -o $(TARGET) timings.c
 
 clean:
 	rm -f $(TARGET)
